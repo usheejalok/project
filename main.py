@@ -35,10 +35,11 @@ def add_friend():                                              #ADD FRIEND
         'name':'',                     #friend_name
         'age' :0,                     #friend_age
         'rating':0.0,                 #friend_rating
-        'is online':True
-        'chats':[]        #chat_message_append object_contain (message sent by me,timing and true or false)
+        'is online':True,
+        'chats':[ ]        #chat_message_append object_contain (message sent by me,timing and true or false)
 
     }
+
     frnd['name'] = raw_input("What is your name ? ")
     frnd['age'] = input("What is your age? ")
     frnd['rating']=input("What is your rating? ")

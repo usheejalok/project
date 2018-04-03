@@ -1,3 +1,5 @@
-Spy_Name = " Alok usheej"
-Spy_Rating = "1.2"
-Spy_Age = 21
+spy = {
+    'name': 'Mr. Aryan',
+    'age' : 24,
+    'rating':1.2
+}
