@@ -9,7 +9,7 @@ class Spy:
     self.chats = []
     self.current_status_message = None
 
-spy=Spy('Aryan','Mr.',24,2.4)
+spy=Spy('Alok','Mr.',20,1.4)
 
 
 class ChatMessage:

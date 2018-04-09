@@ -1,4 +1,4 @@
-from spydetails import spy,Spy,ChatMessage
+from spy_details import spy,Spy,ChatMessage
 from steganography.steganography import Steganography
 
 from datetime import datetime                                                      #import_date_time
@@ -151,7 +151,7 @@ def start_chat(Spy_Name,Spy_Age):                                     #START CHA
 
 spy_exist = raw_input("Are you a new user? Y/N")
 if spy_exist.upper()=="N".lower() or spy_exist == "n".upper():      #use nested if & else.
-    print " Welcome Back Agent "
+    print " Welcome Back"
 
     start_chat(Spy.Name,Spy.Rating,Spy.Age)
 
